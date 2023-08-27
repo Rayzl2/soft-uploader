@@ -219,7 +219,7 @@ def main():
         inner, file = reading()
 
         print("\t[LOG]\tВсе данные успешно получены\t" + get_time())
-        client = clickhouse_connect.get_client(host='rc1b-iqbd8lnsi8fb5n9g.mdb.yandexcloud.net', port=8443, username='analytic', password='rbzrbit836735', database='analytic')
+        client = clickhouse_connect.get_client(host='....9.mdb.yandexcloud.net', port=8443, username='analytic', password='....', database='analytic')
         print("\t[CONNECT]\tПодключение к ClickHouse выполнено\t" + get_time())
         print("\t[LOG]\tНачата передача данных в ClickHouse\t" + get_time())
         dataSet = []
